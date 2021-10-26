@@ -14,7 +14,18 @@
         android:textAlignment="center"
         style="@style/NameStyle" />
 
-        <ImageView
+    <EditText
+        android:id="@+id/nickname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:importantForAutofill="no" />
+
+    <ImageView
             android:id="@+id/star_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
